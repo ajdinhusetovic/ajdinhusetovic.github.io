@@ -1,10 +1,18 @@
-import './App.css'
+import './app.scss'
+import { About } from './components/about/About'
+import { Navbar } from './components/navbar/Navbar'
+import { Projects } from './components/projects/Projects'
+import Headroom from 'react-headroom'
 
 function App() {
 
   return (
     <>
-      <p>ajdinhusetovicccc</p>
+      <Headroom>
+        <Navbar />
+      </Headroom>
+      <About />
+      <Projects />
     </>
   )
 }

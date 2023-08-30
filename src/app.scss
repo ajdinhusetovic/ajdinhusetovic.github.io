@@ -1,0 +1,14 @@
+@use '../config';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: config.$dark-bg-color;
+    font-size: 16px;
+    font-family: config.$font-ubuntu;
+    color: config.$white-font-color;
+}

@@ -1,0 +1,25 @@
+@use '../../../config';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 60px;
+        padding: 10px;
+    }
+
+    nav {
+        margin-right: 80px;
+        a {
+            cursor: pointer;
+            margin-left: 20px;
+            font-size: 20px;
+            font-family: config.$font-ubuntu;
+
+            &:hover {
+                color: config.$light-blue;
+            }
+        }
+    }
+}
