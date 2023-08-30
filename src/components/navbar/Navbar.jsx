@@ -8,11 +8,14 @@ export const Navbar = () => {
     <header>
       <img src={logo} alt="logo" />
       <nav>
-        <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} >
-          About
+        <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} >
+          Intro
         </Link>
         <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500} >
           Projects
+        </Link>
+        <Link activeClass="contact" to="projects" spy={true} smooth={true} offset={50} duration={500} >
+          Contact
         </Link>
       </nav>
     </header>

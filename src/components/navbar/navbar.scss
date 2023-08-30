@@ -1,16 +1,19 @@
-@use '../../../config';
+@use '../../config';
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
+
     img {
-        width: 60px;
-        padding: 10px;
+        width: 50px;
+        margin: 20px;
     }
 
     nav {
         margin-right: 80px;
+
         a {
             cursor: pointer;
             margin-left: 20px;

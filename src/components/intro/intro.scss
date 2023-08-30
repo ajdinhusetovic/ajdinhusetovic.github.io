@@ -1,0 +1,87 @@
+@use '../../config';
+
+
+.intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img-wrapper {
+
+        img {
+            width: 150px;
+            border-radius: 200px;
+            margin-top: 20px;
+        }
+    }
+
+    .short-about-me-wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .full-name {
+            margin-bottom: 10px;
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        button {
+            width: 200px;
+            margin: 20px 0 20px 0;
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            background-color: config.$light-blue;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .intro-wrapper {
+        margin: 80px auto 0 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+
+        .img-wrapper {
+
+            margin-top: -50px;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+
+        .short-about-me-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .short-about-me {
+                margin-top: 20px;
+                word-break: normal;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+    .intro-wrapper {
+        .img-wrapper {
+            img {
+                width: 300px;
+            }
+        }
+    }
+} 
