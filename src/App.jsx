@@ -10,9 +10,7 @@ function App() {
 
   return (
     <>
-      <Headroom>
-        <Navbar />
-      </Headroom>
+      <Navbar />
       <div className='components-wrapper'>
         <Intro />
         <Skills />
