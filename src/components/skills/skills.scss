@@ -5,7 +5,7 @@
     border-radius: 6px;
     display: flex;
     flex-direction: column;
-    margin: 200px auto 0 auto;
+    margin: 80px auto 0 auto;
     padding: 20px 0 20px 0;
 
     h1 {
@@ -34,6 +34,7 @@
 
 @media only screen and (min-width: 768px) {
     .skills-wrapper {
+        margin-top: 120px;
         .skills-cards-wrapper {
             display: flex;
             align-items: center;
@@ -48,12 +49,14 @@
 @media only screen and (min-width: 1120px) {
     .skills-wrapper {
         width: 70%;
+        margin-top: 150px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .skills-wrapper {
         width: 60%;
+        margin-top: 200px;
 
         .skills-cards-wrapper {
             img {
