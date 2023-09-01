@@ -16,7 +16,8 @@ export const Projects = () => {
           </section>
           <section className='project-content-wrapper'>
             <p>Game Tag</p>
-            <button>View website</button>
+            <a href="https://gametag.netlify.app/" target='blank'>View website</a>
+            <a href="https://easycrochet.netlify.app/" target='blank'>View GitHub</a>
           </section>
         </section>
         <section className='projects-card'>
@@ -25,7 +26,8 @@ export const Projects = () => {
           </section>
           <section className='project-content-wrapper'>
             <p>Easy Crochet</p>
-            <button>View website</button>
+            <a href="https://easycrochet.netlify.app/" target='blank'>View website</a>
+            <a href="https://easycrochet.netlify.app/" target='blank'>View GitHub</a>
           </section>
         </section>
       </article>
