@@ -2,7 +2,7 @@
 
 .projects-wrapper {
     width: 90%;
-    margin: 40px auto 0 auto;
+    margin: 80px auto 0 auto;
 
     .projects-title {
         margin-bottom: 14px;
@@ -71,6 +71,7 @@
 
 @media only screen and (min-width: 768px) {
     .projects-wrapper {
+        margin-top: 120px;
 
         .projects-cards-wrapper {
             display: grid;
@@ -86,5 +87,17 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .projects-wrapper {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .projects-wrapper {
+        margin-top: 200px;
     }
 }
