@@ -1,5 +1,6 @@
 import './app.scss'
 import { Contact } from './components/contact/Contact'
+import { Experience } from './components/experience/Experience'
 import { Intro } from './components/intro/Intro'
 import { Navbar } from './components/navbar/Navbar'
 import { Projects } from './components/projects/Projects'
@@ -14,6 +15,7 @@ function App() {
       <div className='components-wrapper'>
         <Intro />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
       </div>
