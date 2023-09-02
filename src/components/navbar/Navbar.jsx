@@ -23,6 +23,9 @@ export const Navbar = () => {
         <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} >
           Skills
         </Link>
+        <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-100} duration={500} >
+          Experience
+        </Link>
         <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500} >
           Projects
         </Link>
