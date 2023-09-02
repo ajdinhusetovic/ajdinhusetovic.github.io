@@ -1,0 +1,50 @@
+@use '../../config';
+
+.experience-wrapper {
+    margin-top: 80px;
+
+    .experience-title-wrapper {
+        h1 {
+            font-size: 36px;
+        }
+    }
+
+    .experience-cards-wrapper {
+        margin-top: 20px;
+
+        .experience-card {
+            width: 60%;
+            background-color: config.$lighter-black;
+            padding: 20px;
+            max-width: 200px;
+
+            .role-title {
+                margin-bottom: 6px;
+                font-size: 20px;
+                color: config.$light-blue;
+            }
+
+            .role-date {
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-bottom: 6px;
+            }
+
+            ul {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .experience-wrapper {
+
+        .experience-cards-wrapper {
+
+            .experience-card {
+                
+            }
+        }
+    }
+}
