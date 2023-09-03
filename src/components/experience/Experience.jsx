@@ -12,7 +12,7 @@ export const Experience = () => {
                     <p className='role-title'>Front-End Developer</p>
                     <p className='role-date'>Jan 2023 - Feb 2023</p>
                     <ul>
-                        <li>Designed and developed user-centric login, registration, and dashboard pages for a web application.</li>
+                        <li>Designed and developed user-centric login, registration, and dashboard pages for a web application using HTML, CSS and JS.</li>
                         <li>Ensured a simple and responsive design for accessibility on various devices, in coordination with team members.</li>
                         <li>Supported the overall user experience enhancement efforts as part of a team.</li>
                         <li>Contributed to the user interface's visual appeal and usability.</li>
