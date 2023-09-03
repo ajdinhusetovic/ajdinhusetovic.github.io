@@ -13,10 +13,9 @@
         margin-top: 20px;
 
         .experience-card {
-            width: 60%;
             background-color: config.$lighter-black;
             padding: 20px;
-            max-width: 200px;
+            max-width: 300px;
 
             .role-title {
                 margin-bottom: 6px;
@@ -32,6 +31,10 @@
 
             ul {
                 padding-left: 30px;
+
+                li {
+                    margin-top: 8px;
+                }
             }
         }
     }
