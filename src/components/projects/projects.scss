@@ -42,7 +42,11 @@
                 gap: 20px;
 
                 p {
-                    font-size: 20px;
+                    font-size: 24px;
+                }
+                .description {
+                    font-size: 1rem;
+                    text-align: center;
                 }
 
                 a {
@@ -79,7 +83,8 @@
             .projects-card {
                 .project-content-wrapper {
                     p {
-                        font-size: 24px
+                        font-size: 24px;
+                        text-align: center;
                     }
                 }
             }
