@@ -29,7 +29,7 @@ export const Navbar = () => {
         <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500} >
           Projects
         </Link>
-        <Link activeClass="contact" to="projects" spy={true} smooth={true} offset={50} duration={500} >
+        <Link activeClass="contact" to="contact" spy={true} smooth={true} offset={50} duration={500} >
           Contact
         </Link>
         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
