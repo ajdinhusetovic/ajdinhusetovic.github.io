@@ -75,7 +75,7 @@ export const Projects = () => {
           <section className="project-content-wrapper">
             <p>AMH Movies</p>
             <p className="description">
-              Web app where that serves as your own movies to watch list
+              Personal to-watch list for movies.
             </p>
             <motion.a
               whileHover={{ scale: 1.1 }}
