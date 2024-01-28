@@ -1,4 +1,3 @@
-import React from "react";
 import "./skills.scss";
 import htmlLogo from "../../assets/html-logo.png";
 import cssLogo from "../../assets/css-logo.png";
