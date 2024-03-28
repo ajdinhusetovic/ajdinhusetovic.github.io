@@ -1,32 +1,48 @@
 @use '../../config';
 
 .experience-wrapper {
-    margin-top: 80px;
+    padding: 20px 0 50px 0;
+    margin-top: 50px;
+    background-color: #F4E869;
+    color: black;
 
     .experience-title-wrapper {
         h1 {
-            font-size: 36px;
+            font-size: 2.5rem;
+            text-align: center;
         }
     }
 
     .experience-cards-wrapper {
         margin-top: 20px;
+        display: flex;
+        flex-direction: column;
 
         .experience-card {
-            background-color: config.$lighter-black;
+            background-color: #5CD2E6;
             padding: 20px;
-            max-width: 300px;
+            width: 90%;
+            margin: 0 auto;
+            border-radius: 8px;
 
             .role-title {
+                font-size: 1.5rem;
+                color: #F4E869;
+                font-weight: bold;
+            }
+
+            .role-company {
                 margin-bottom: 6px;
-                font-size: 20px;
-                color: config.$light-blue;
+                color: #F4E869;
+                font-weight: bold;
+                font-size: 1.2rem;
             }
 
             .role-date {
                 font-size: 14px;
                 text-transform: uppercase;
                 margin-bottom: 6px;
+                font-weight: bold;
             }
 
             ul {
@@ -37,6 +53,49 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+  .experience-wrapper {
+    padding: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .experience-title-wrapper {
+        height: 200px;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .experience-cards-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+
+        .experience-card {
+            width: 45%;
+            margin: 0 auto 0 0;
+            padding: 30px;
+        }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+    .experience-wrapper {
+      padding: 50px 0 50px 0;
+      height: 800px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; 
     }
 }
 

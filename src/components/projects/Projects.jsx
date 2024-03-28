@@ -1,7 +1,7 @@
 import "./projects.scss";
 import { motion } from "framer-motion";
 import gameTagPicture from "../../assets/game-tag.png";
-import easyCrochetPicture from "../../assets/easy-crochet.png";
+import recipiPicture from "../../assets/recipi.png";
 import amhMoviesPicture from "../../assets/amhmovies.png";
 
 export const Projects = () => {
@@ -13,10 +13,38 @@ export const Projects = () => {
       <article className="projects-cards-wrapper">
         <section className="projects-card">
           <section className="img-wrapper">
+            <img src={recipiPicture} />
+          </section>
+          <section className="project-content-wrapper">
+            <h1>Recipi</h1>
+            <p className="description">
+              Platform where sharing, discovering and managing recipes has never
+              been easier
+            </p>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              href="https://recipie-j65d.onrender.com/"
+              target="blank"
+            >
+              Website
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              href="https://github.com/ajdinhusetovic/recipi"
+              target="blank"
+            >
+              GitHub
+            </motion.a>
+          </section>
+        </section>
+        <section className="projects-card">
+          <section className="img-wrapper">
             <img src={amhMoviesPicture} />
           </section>
           <section className="project-content-wrapper">
-            <p>AMH Movies</p>
+            <h1>AMH Movies</h1>
             <p className="description">Personal to-watch list for movies.</p>
             <motion.a
               whileHover={{ scale: 1.1 }}
@@ -24,7 +52,7 @@ export const Projects = () => {
               href="https://amh-movies-ajdin-husetovics-projects.vercel.app/movies"
               target="blank"
             >
-              View website
+              Website
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
@@ -32,7 +60,7 @@ export const Projects = () => {
               href="https://github.com/ajdinhusetovic/amh-movies"
               target="blank"
             >
-              View GitHub
+              GitHub
             </motion.a>
           </section>
         </section>
@@ -41,7 +69,7 @@ export const Projects = () => {
             <img src={gameTagPicture} />
           </section>
           <section className="project-content-wrapper">
-            <p>Game Tag</p>
+            <h1>Game Tag</h1>
             <p className="description">
               Website where you can see the latest and best deals in the gaming
               world
@@ -52,7 +80,7 @@ export const Projects = () => {
               href="https://gametag.netlify.app/"
               target="blank"
             >
-              View website
+              Website
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.1 }}
@@ -60,35 +88,7 @@ export const Projects = () => {
               href="https://github.com/ajdinhusetovic/game-tag"
               target="blank"
             >
-              View GitHub
-            </motion.a>
-          </section>
-        </section>
-        <section className="projects-card">
-          <section className="img-wrapper">
-            <img src={easyCrochetPicture} />
-          </section>
-          <section className="project-content-wrapper">
-            <p>Easy Crochet</p>
-            <p className="description">
-              Web app for croche enthusiasts, where you can upload your own
-              patterns
-            </p>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://easycrochet.netlify.app/"
-              target="blank"
-            >
-              View website
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://github.com/ajdinhusetovic/easy-crochet"
-              target="blank"
-            >
-              View GitHub
+              GitHub
             </motion.a>
           </section>
         </section>

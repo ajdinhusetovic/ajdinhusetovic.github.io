@@ -1,22 +1,20 @@
 import "./app.scss";
+import { AboutMe } from "./components/about-me/AboutMe";
 import { Contact } from "./components/contact/Contact";
 import { Experience } from "./components/experience/Experience";
 import { Intro } from "./components/intro/Intro";
 import { Navbar } from "./components/navbar/Navbar";
 import { Projects } from "./components/projects/Projects";
-import { Skills } from "./components/skills/Skills";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="components-wrapper">
-        <Intro />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-      </div>
+      <Intro />
+      <AboutMe />
+      <Experience />
+      <Projects />
+      <Contact />
     </>
   );
 }

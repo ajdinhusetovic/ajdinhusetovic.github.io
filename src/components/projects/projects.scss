@@ -1,18 +1,22 @@
 @use '../../config';
 
 .projects-wrapper {
-    margin: 80px auto 0 auto;
+    color: black;
+    background-color: #FAF2D3;
+    padding: 50px 0 50px 0;
 
     .projects-title {
-        margin-bottom: 14px;
+        margin-bottom: 20px;
 
         h1 {
             font-size: 36px;
+            text-align: center;
         }
     }
 
     .projects-cards-wrapper {
-
+        width: 90%;
+        border-radius: 6px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -21,7 +25,8 @@
         .projects-card {
             width: 100%;
             margin: 0 auto;
-            background-color: config.$lighter-black;
+            // background-color: #5CD2E6;
+            border: 2px solid black;
             border-radius: 4px;
 
             .img-wrapper {
@@ -40,10 +45,19 @@
                 justify-content: center;
                 padding-top: 20px;
                 gap: 20px;
+                width: 95%;
+                margin: 0 auto;
 
                 p {
                     font-size: 24px;
+                    
                 }
+
+                h1 {
+                    font-size: 1.8rem;
+                    font-weight: bold;
+                }
+
                 .description {
                     font-size: 1rem;
                     text-align: center;
@@ -51,10 +65,10 @@
 
                 a {
                     padding: 6px 8px 6px 8px;
-                    border: 1px solid config.$light-blue;
-                    color: config.$light-blue;
+                    color: black;
+                    font-weight: bold;
                     border-radius: 8px;
-                    background-color: transparent;
+                    background-color: #F4E869;
                     text-decoration: none;
                     font-size: 14px;
                     width: 120px;
@@ -72,11 +86,40 @@
 
 @media only screen and (min-width: 768px) {
     .projects-wrapper {
-        margin-top: 120px;
+
+        .projects-title {
+            h1 {
+                font-size: 3rem;
+                margin-bottom: 50px;
+            }
+        }
 
         .projects-cards-wrapper {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            margin-top: 40px;
+
+            .projects-card {
+                height: 550px;
+                .project-content-wrapper {
+                    p {
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1120px) {
+    .projects-wrapper {
+        height: 900px;
+
+        .projects-cards-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             align-items: center;
             margin-top: 40px;
 
@@ -92,14 +135,6 @@
     }
 }
 
-@media only screen and (min-width: 1120px) {
-    .projects-wrapper {
-        margin-top: 150px;
-    }
-}
-
 @media only screen and (min-width: 1440px) {
-    .projects-wrapper {
-        margin-top: 200px;
-    }
+
 }

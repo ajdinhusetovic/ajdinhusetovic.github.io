@@ -7,13 +7,9 @@
 }
 
 body {
-    background-color: config.$dark-bg-color;
+    // background-color: config.$dark-bg-color;
     font-size: 16px;
-    font-family: config.$font-ubuntu;
+    font-family: config.$font-reddit-mono;
     color: config.$white-font-color;
-}
-
-.components-wrapper {
-    width: 90%;
-    margin: 0 auto;
+    line-height: 1.5;
 }
