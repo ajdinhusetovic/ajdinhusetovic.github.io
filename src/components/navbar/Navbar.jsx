@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/ah_logo.png";
 import { Link } from "react-scroll";
 import "./navbar.scss";
 import { FaBars, FaTimes } from "react-icons/fa";
