@@ -34,6 +34,23 @@
 
 @media only screen and (min-width: 1024px) { 
     .intro-wrapper {
+        height: 700px;
+
+        .intro-wrapper-content {
+            .intro-wrapper-section {
+                .intro-wrapper-section-content {
+                    .intro-wrapper-title {
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+        }
+    }
+} 
+
+
+@media only screen and (min-width: 1400px) { 
+    .intro-wrapper {
         height: 900px;
 
         .intro-wrapper-content {

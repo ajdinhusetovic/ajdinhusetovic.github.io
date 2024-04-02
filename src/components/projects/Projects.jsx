@@ -21,22 +21,24 @@ export const Projects = () => {
               Platform where sharing, discovering and managing recipes has never
               been easier
             </p>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://recipie-j65d.onrender.com/"
-              target="blank"
-            >
-              Website
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://github.com/ajdinhusetovic/recipi"
-              target="blank"
-            >
-              GitHub
-            </motion.a>
+            <div className="project-links">
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://recipie-j65d.onrender.com/"
+                target="blank"
+              >
+                Website
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://github.com/ajdinhusetovic/recipi"
+                target="blank"
+              >
+                GitHub
+              </motion.a>
+            </div>
           </section>
         </section>
         <section className="projects-card">
@@ -46,22 +48,24 @@ export const Projects = () => {
           <section className="project-content-wrapper">
             <h1>AMH Movies</h1>
             <p className="description">Personal to-watch list for movies.</p>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://amh-movies-ajdin-husetovics-projects.vercel.app/movies"
-              target="blank"
-            >
-              Website
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://github.com/ajdinhusetovic/amh-movies"
-              target="blank"
-            >
-              GitHub
-            </motion.a>
+            <div className="project-links">
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://amh-movies-ajdin-husetovics-projects.vercel.app/movies"
+                target="blank"
+              >
+                Website
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://github.com/ajdinhusetovic/amh-movies"
+                target="blank"
+              >
+                GitHub
+              </motion.a>
+            </div>
           </section>
         </section>
         <section className="projects-card">
@@ -74,22 +78,24 @@ export const Projects = () => {
               Website where you can see the latest and best deals in the gaming
               world
             </p>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://gametag.netlify.app/"
-              target="blank"
-            >
-              Website
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-              href="https://github.com/ajdinhusetovic/game-tag"
-              target="blank"
-            >
-              GitHub
-            </motion.a>
+            <div className="project-links">
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://gametag.netlify.app/"
+                target="blank"
+              >
+                Website
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                href="https://github.com/ajdinhusetovic/game-tag"
+                target="blank"
+              >
+                GitHub
+              </motion.a>
+            </div>
           </section>
         </section>
       </article>
