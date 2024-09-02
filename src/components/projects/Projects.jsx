@@ -3,14 +3,34 @@ import { motion } from "framer-motion";
 import gameTagPicture from "../../assets/game-tag.png";
 import recipiPicture from "../../assets/recipi.png";
 import amhMoviesPicture from "../../assets/amhmovies.png";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
 
 export const Projects = () => {
+  const projectsRef = useRef();
+
+  useGSAP(() => {
+    gsap.from(".projects-card", {
+      opacity: 0,
+      y: 50,
+      stagger: 0.3,
+      duration: 1,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: projectsRef.current,
+        start: "top 40%",
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
+
   return (
     <article id="projects" className="projects-wrapper">
       <section className="projects-title">
         <h1>Projects</h1>
       </section>
-      <article className="projects-cards-wrapper">
+      <article className="projects-cards-wrapper" ref={projectsRef}>
         <section className="projects-card">
           <section className="img-wrapper">
             <img src={recipiPicture} />

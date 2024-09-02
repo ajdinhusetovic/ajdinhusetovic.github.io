@@ -1,12 +1,31 @@
+import { useGSAP } from "@gsap/react";
 import "./experience.scss";
+import gsap from "gsap";
+import { useRef } from "react";
 
 export const Experience = () => {
+  const experienceRef = useRef();
+
+  useGSAP(() => {
+    gsap.from(".experience-card", {
+      x: -3000,
+      ease: "circ.inOut",
+      stagger: 0.1,
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: experienceRef.current,
+        start: "top 70%",
+        toggleActions: "play none none none",
+      },
+    });
+  });
+
   return (
     <article id="experience" className="experience-wrapper">
       <section className="experience-title-wrapper">
         <h1>Experience</h1>
       </section>
-      <section className="experience-cards-wrapper">
+      <section className="experience-cards-wrapper" ref={experienceRef}>
         <section className="experience-card">
           <p className="role-title">Full Stack Developer Intern</p>
           <p className="role-company">Evvent</p>
