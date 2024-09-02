@@ -1,57 +1,59 @@
-@use '../../config';
+@use "../../config";
 
 .experience-wrapper {
-    padding: 20px 0 50px 0;
-    margin-top: 50px;
-    background-color: #F4E869;
-    color: black;
+  padding: 20px 0 50px 0;
+  margin-top: 50px;
+  background-color: #f4e869;
+  color: black;
 
-    .experience-title-wrapper {
-        h1 {
-            font-size: 2.5rem;
-            text-align: center;
-        }
+  .experience-title-wrapper {
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
     }
+  }
 
-    .experience-cards-wrapper {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
+  .experience-cards-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 
-        .experience-card {
-            background-color: #5CD2E6;
-            padding: 20px;
-            width: 90%;
-            margin: 0 auto;
-            border-radius: 8px;
+    .experience-card {
+      background-color: #5cd2e6;
+      padding: 20px;
+      width: 90%;
+      margin: 0 auto;
+      border-radius: 8px;
 
-            .role-title {
-                font-size: 1.5rem;
-                font-weight: bold;
-            }
+      .role-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
 
-            .role-company {
-                margin-bottom: 6px;
-                font-weight: bold;
-                font-size: 1.2rem;
-            }
+      .role-company {
+        margin-bottom: 6px;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
 
-            .role-date {
-                font-size: 14px;
-                text-transform: uppercase;
-                margin-bottom: 6px;
-                font-weight: bold;
-            }
+      .role-date {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
 
-            ul {
-                padding-left: 30px;
+      ul {
+        padding-left: 30px;
+        font-size: 0.9rem;
 
-                li {
-                    margin-top: 8px;
-                }
-            }
+        li {
+          margin-top: 8px;
         }
+      }
     }
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -63,37 +65,36 @@
     flex-direction: column;
 
     .experience-title-wrapper {
-        height: 200px;
+      height: 200px;
 
-        h1 {
-            font-size: 3rem;
-        }
+      h1 {
+        font-size: 3rem;
+      }
     }
 
     .experience-cards-wrapper {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 80%;
-        margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 0 auto;
 
-        .experience-card {
-            width: 45%;
-            margin: 0 auto 0 0;
-            padding: 30px;
-        }
+      .experience-card {
+        width: 45%;
+        // margin: 0 auto 0 0;
+        padding: 30px;
+      }
     }
   }
 }
 
 @media only screen and (min-width: 1400px) {
-    .experience-wrapper {
-      padding: 50px 0 50px 0;
-      height: 800px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column; 
-    }
+  .experience-wrapper {
+    padding: 50px 0 50px 0;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
-

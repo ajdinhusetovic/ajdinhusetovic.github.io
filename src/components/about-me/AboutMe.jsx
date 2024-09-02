@@ -40,6 +40,8 @@ export const AboutMe = () => {
               <p>MongoDB</p>
               <p>PostgreSQL</p>
               <p>Python</p>
+              <p>Next.js</p>
+              <p>tRPC</p>
             </div>
           </section>
         </div>
