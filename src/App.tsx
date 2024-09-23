@@ -1,4 +1,6 @@
 import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -7,6 +9,8 @@ function App() {
         <div className="flex justify-center">
           <Navbar />
         </div>
+        <Main />
+        <Experience />
       </div>
     </div>
   );
