@@ -2,7 +2,7 @@ import image from "../assets/picture.jpeg";
 
 const Main = () => {
   return (
-    <div className="mt-24 md:mt-28 lg:mt-64 lg:flex">
+    <div className="mt-36 md:mt-36 lg:mt-64 lg:flex">
       <div className="flex items-center justify-center lg:w-[50%]">
         <img
           src={image}
