@@ -1,11 +1,12 @@
 import React from "react";
-import Accordion from "./Accordion";
 
 const Experience = () => {
   return (
     <div className="mt-14 text-black">
-      <Accordion title="Experience">
-        <div className="space-y-6">
+      <div className="collapse collapse-arrow border border-black">
+        <input type="checkbox" name="my-accordion-2" defaultChecked />
+        <div className="collapse-title text-xl font-medium">Experience</div>
+        <div className="collapse-content">
           <div>
             <h1 className="font-semibold text-md">
               Evvent{" "}
@@ -28,9 +29,9 @@ const Experience = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="mt-6">
             <h1 className="font-semibold text-md">
-              Blue Schindler Studio{" "}
+              Blue Schindler Studios{" "}
               <span className="text-sm font-normal text-slate-800">
                 (Apr 2024 - Oct 2024)
               </span>
@@ -41,20 +42,20 @@ const Experience = () => {
             <ul className="list-disc pl-4">
               <li>
                 Transformed the online presence of a premier New York-based
-                photography studio by developing a high-impact, visually
+                photography studio by developing a high- impact, visually
                 stunning portfolio website that significantly boosted client
                 engagement and satisfaction.
               </li>
               <li>
                 Led the full lifecycle of development, from concept to
-                deployment, ensuring pixel-perfect design and a flawless user
+                deployment, ensuring pixel-perfect design and a flaw- less user
                 experience, resulting in a 35% increase in site traffic within
                 the first month.
               </li>
             </ul>
           </div>
         </div>
-      </Accordion>
+      </div>
     </div>
   );
 };
