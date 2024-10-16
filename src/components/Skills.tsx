@@ -1,4 +1,3 @@
-import React from "react";
 import { GrReactjs } from "react-icons/gr";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsLine } from "react-icons/ri";

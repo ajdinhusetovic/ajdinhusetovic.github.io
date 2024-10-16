@@ -1,6 +1,16 @@
 import { motion } from "framer-motion";
 
-const Project = ({ title, description, demoLink, githubLink }) => {
+const Project = ({
+  title,
+  description,
+  demoLink,
+  githubLink,
+}: {
+  title: string;
+  description: string;
+  demoLink: string;
+  githubLink: string;
+}) => {
   return (
     <div>
       <h1 className="text-xl text-teal-500">{title}</h1>
