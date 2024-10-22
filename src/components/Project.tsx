@@ -12,12 +12,12 @@ const Project = ({
   githubLink: string;
 }) => {
   return (
-    <div>
-      <h1 className="text-xl text-teal-500">{title}</h1>
-      <p>{description}</p>
+    <div className="bg-green-bg p-5 rounded-2xl">
+      <h1 className="text-xl text-green-text-color font-bold">{title}</h1>
+      <p className="text-md">{description}</p>
       <div className="flex gap-3 mt-2">
         <motion.a
-          className="p-2 bg-teal-500 rounded text-white"
+          className="p-2 bg-green-bg-two text-green-text-color font-semibold rounded"
           href={demoLink}
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.1 }}
@@ -25,7 +25,7 @@ const Project = ({
           View Live
         </motion.a>
         <motion.a
-          className="p-2 bg-teal-500 rounded text-white"
+          className="p-2 bg-green-bg-two text-green-text-color font-semibold rounded"
           href={githubLink}
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.1 }}

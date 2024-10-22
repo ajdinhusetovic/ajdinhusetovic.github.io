@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-white min-h-screen font-spaceGrotesk">
+    <div className="bg-green-bg min-h-screen font-spaceGrotesk pb-8">
       <div className="w-11/12 xl:w-[80%] m-auto">
         <div className="flex justify-center">
           <Navbar />

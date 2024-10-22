@@ -1,18 +1,20 @@
 const Experience = () => {
   return (
-    <div className="mt-14 text-black">
-      <div className="collapse collapse-arrow border border-black">
-        <input type="checkbox" name="my-accordion-2" defaultChecked />
-        <div className="collapse-title text-xl font-medium">Experience</div>
+    <div className="mt-14 text-slate-900 bg-green-bg-two rounded-2xl">
+      <div className="collapse collapse-arrow">
+        <input type="checkbox" name="my-accordion-2" />
+        <div className="collapse-title text-xl font-medium text-green-text-color">
+          Experience
+        </div>
         <div className="collapse-content">
-          <div>
-            <h1 className="font-semibold text-md">
+          <div className="mt-2">
+            <h1 className="font-bold text-md text-green-text-color p-2 bg-green-bg w-fit rounded-2xl">
               Evvent{" "}
-              <span className="text-sm font-normal text-slate-800">
+              <span className="text-sm font-normal text-green-text-color">
                 (Apr 2024 - Oct 2024)
               </span>
             </h1>
-            <h2 className="italic text-slate-800 pb-1 text-md">
+            <h2 className="font-semibold italic text-green-text-color my-2 text-md p-2 bg-green-bg w-fit rounded-2xl">
               Full Stack Developer Intern
             </h2>
             <ul className="list-disc pl-4">
@@ -28,13 +30,13 @@ const Experience = () => {
             </ul>
           </div>
           <div className="mt-6">
-            <h1 className="font-semibold text-md">
+            <h1 className="font-bold text-md text-green-text-color p-2 bg-green-bg w-fit rounded-2xl">
               Blue Schindler Studios{" "}
-              <span className="text-sm font-normal text-slate-800">
+              <span className="text-sm font-normal text-green-text-color">
                 (Apr 2024 - Oct 2024)
               </span>
             </h1>
-            <h2 className="italic text-slate-800 pb-1 text-md">
+            <h2 className="font-semibold italic text-green-text-color my-2 p-2 bg-green-bg w-fit rounded-2xl text-md">
               Front End Developer
             </h2>
             <ul className="list-disc pl-4">

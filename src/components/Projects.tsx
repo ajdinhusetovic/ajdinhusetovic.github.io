@@ -2,12 +2,14 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div className="text-black mt-6">
-      <div className="collapse collapse-arrow border border-black">
+    <div className="text-green-text-color mt-6 bg-green-bg-two rounded-2xl">
+      <div className="collapse collapse-arrow">
         <input type="checkbox" name="my-accordion-2" />
-        <div className="collapse-title text-xl font-medium">Projects</div>
+        <div className="collapse-title text-xl font-semibold text-green-text-color">
+          Projects
+        </div>
         <div className="collapse-content">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-2">
             <Project
               title={"Recipi"}
               description={
