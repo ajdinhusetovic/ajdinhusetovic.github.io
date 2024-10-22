@@ -3,6 +3,8 @@ import Main from "./components/Main";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import ResumeButton from "./components/ResumeButton";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Experience />
         <Projects />
         <Skills />
+        <Contact />
+        <ResumeButton />
       </div>
     </div>
   );
