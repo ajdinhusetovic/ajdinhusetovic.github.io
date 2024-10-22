@@ -32,7 +32,7 @@ const Experience = () => {
           <div className="mt-6">
             <h1 className="font-bold text-md text-green-text-color p-2 bg-green-bg w-fit rounded-2xl">
               Blue Schindler Studios{" "}
-              <span className="text-sm font-normal text-green-text-color">
+              <span className="text-sm font-normal text-green-text-color block">
                 (Apr 2024 - Oct 2024)
               </span>
             </h1>
