@@ -7,7 +7,7 @@ import { SiTrpc } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="mt-6 text-green-text-color bg-green-bg-two rounded-2xl font-semibold">
+    <div className="mt-6 text-green-text-color bg-green-bg-two rounded-2xl font-semibold lg:w-10/12 w-full">
       <div className="collapse collapse-arrow">
         <input type="checkbox" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium text-green-text-color">

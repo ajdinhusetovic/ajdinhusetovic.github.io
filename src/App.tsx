@@ -1,4 +1,3 @@
-import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -8,17 +7,18 @@ import ResumeButton from "./components/ResumeButton";
 
 function App() {
   return (
-    <div className="bg-green-bg min-h-screen font-spaceGrotesk py-4">
-      <div className="w-11/12 xl:w-[80%] m-auto">
-        <div className="flex justify-center">
-          <Navbar />
+    <div className="bg-green-bg min-h-screen font-spaceGrotesk py-4 flex justify-center items-center">
+      <div className="w-11/12 md:w-10/12 lg:w-10/12 xl:w-11/12 h-full flex flex-col xl:flex-row xl:justify-between">
+        <div className="xl:relative xl:flex-shrink-0 xl:w-1/3">
+          <Main />
         </div>
-        <Main />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Contact />
-        <ResumeButton />
+        <div className="flex flex-col items-center justify-center xl:w-2/3 h-full overflow-y-auto">
+          <Experience />
+          <Projects />
+          <Skills />
+          <Contact />
+          <ResumeButton />
+        </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="text-green-text-color mt-6 bg-green-bg-two rounded-2xl">
+    <div className="text-green-text-color mt-6 bg-green-bg-two rounded-2xl lg:w-10/12 w-full">
       <div className="collapse collapse-arrow">
         <input type="checkbox" name="my-accordion-2" />
         <div className="collapse-title text-xl font-semibold text-green-text-color">
