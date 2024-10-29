@@ -19,7 +19,7 @@ const Experience = () => {
             <h2 className="font-semibold italic text-green-text-color my-2 text-md p-2 bg-green-bg w-fit rounded-2xl">
               Full Stack Developer Intern
             </h2>
-            <ul className="list-disc pl-4">
+            <ul className="list-disc pl-12">
               <li>
                 Engineered a comprehensive and scalable review system that
                 streamlined user feedback processes.
@@ -41,7 +41,7 @@ const Experience = () => {
             <h2 className="font-semibold italic text-green-text-color my-2 p-2 bg-green-bg w-fit rounded-2xl text-md">
               Front End Developer
             </h2>
-            <ul className="list-disc pl-4">
+            <ul className="list-disc pl-12">
               <li>
                 Transformed the online presence of a premier New York-based
                 photography studio by developing a high- impact, visually
