@@ -7,7 +7,7 @@ import ResumeButton from "./components/ResumeButton";
 
 function App() {
   return (
-    <div className="bg-green-bg min-h-screen font-spaceGrotesk py-4 flex justify-center items-center">
+    <div className="bg-green-bg min-h-screen font-spaceGrotesk py-4 flex justify-center items-center app">
       <div className="w-11/12 md:w-10/12 lg:w-10/12 xl:w-11/12 h-full flex flex-col xl:flex-row xl:justify-between">
         <div className="xl:relative xl:flex-shrink-0 xl:w-1/3">
           <Main />

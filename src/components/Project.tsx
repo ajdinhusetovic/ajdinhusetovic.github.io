@@ -19,6 +19,7 @@ const Project = ({
         <motion.a
           className="p-2 bg-green-bg-two text-green-text-color font-semibold rounded"
           href={demoLink}
+          target="_blank"
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.1 }}
         >
@@ -27,6 +28,7 @@ const Project = ({
         <motion.a
           className="p-2 bg-green-bg-two text-green-text-color font-semibold rounded"
           href={githubLink}
+          target="_blank"
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.1 }}
         >
